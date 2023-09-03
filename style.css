@@ -1,0 +1,130 @@
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+    background-color: #f5f5f5;
+}
+
+
+
+
+
+  
+
+
+
+
+
+.container{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    background-color: #333333;
+   
+    padding: 10px;
+    gap: 10px;
+    align-items: center;
+    margin-top: 10px;
+    
+    
+    
+}
+
+.keys{
+    display: flex;
+    
+   
+
+   
+    
+    
+}
+/* Style for the display */
+/* Style for the display */
+.display {
+    padding: 30px;
+    background-color: #222; /* Dark gray background for a mature look */
+    width: 70%;
+    font-size: 2rem; /* Adjust the font size for the display text */
+    text-align: right; /* Right-align text in display */
+    color: #007BFF; /* Slightly darker text color for sophistication */
+    font-family: 'Roboto', sans-serif; /* Use the Roboto font or a similar modern sans-serif font */
+    border: 2px solid #444; /* Darker border for a refined appearance */
+    border-radius: 5px; /* Add rounded corners for a touch of elegance */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add a subtle shadow for depth */
+  }
+  
+  
+
+
+
+
+.digits{
+    display: flex;
+    flex-direction: column;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.digits{
+    display: flex;
+   
+    
+    
+}
+.operators{
+    display: flex;
+    flex-direction: column;
+}
+.keys button{
+    height: 70px;
+    width: 70px;
+}
+.buttons button{
+width: 120px;
+font-size: larger;
+padding: 20px;
+background-color:;
+}
+.digits button{
+    background-color: #C0C0C0;
+}
+.operators button{
+    background-color: #555555;
+}
+#equal{
+    background-color: #2196F3;
+}
+#clear{
+background-color: #CCCCCC;}
+#delete{
+    background-color: #555555;
+}
+
+
+
+
+/* Style for the buttons on hover */
+.keys button:hover {
+    background-color: #666; /* Darken the button color on hover */
+    transition: background-color 0.2s; /* Smooth transition for the hover effect */
+  }
+  
+  /* Style for the Clear button on hover */
+  .buttons button#clear:hover {
+    background-color: #FF5555; /* Change the Clear button's color on hover */
+    transition: background-color 0.2s; /* Smooth transition for the hover effect */
+  }
+  
+  /* Style for the Delete button on hover */
+  .buttons button#delete:hover {
+    background-color: #FFD700; /* Change the Delete button's color on hover */
+    transition: background-color 0.2s; /* Smooth transition for the hover effect */
+  }
+  
