@@ -19,3 +19,8 @@ function operate(operator,a,b){
     
 
 }
+
+const gitIcon=document.querySelector("#gitIcon");
+gitIcon.addEventListener('click',()=>{
+    window.open("https://github.com/Labidi-Ahmed")
+})
