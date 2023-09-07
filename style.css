@@ -7,6 +7,7 @@ body{
     justify-content: space-between;
     margin: 0;
     padding: 40px 0px 0px;
+    gap: 150px;
 }
 
 
@@ -51,7 +52,9 @@ body{
 .display {
     padding: 30px;
     background-color: #222; /* Dark gray background for a mature look */
-    width: 70%;
+    width: 300px;
+    height: 50px;
+    overflow:scroll;
     font-size: 2rem; /* Adjust the font size for the display text */
     text-align: right; /* Right-align text in display */
     color: #007BFF; /* Slightly darker text color for sophistication */
@@ -61,7 +64,7 @@ body{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add a subtle shadow for depth */
   }
   
-  
+
 
 
 
@@ -102,6 +105,7 @@ background-color:;
 }
 .operators button{
     background-color: #555555;
+    color:#fff;
 }
 #equal{
     background-color: #2196F3;
@@ -165,5 +169,14 @@ background-color: #CCCCCC;}
 
 
 
+}
+.display{
+    display:  flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+.previous{
+    font-size: medium;
 }
      
